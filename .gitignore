@@ -1,0 +1,21 @@
+# Dependências
+node_modules
+
+# Build / saída
+dist
+.vite
+
+# Artefatos gerados pelo TypeScript
+*.tsbuildinfo
+vite.config.js
+vite.config.d.ts
+
+# Arquivos locais / de ambiente
+*.local
+.env
+.env.*
+!.env.example
+
+# Sistema operacional / editor
+.DS_Store
+Thumbs.db
